@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root {
+  font-family: 'Source Sans Pro', sans-serif;
+  scroll-behavior: smooth;
+  --color-background: #A9BFE4;
+  --color-background-light: rgba(169, 191, 228, 0.2);
+  --color-text-colored: #989EC3;
+  --color-shadow: #FFC2C7;
+  --color-text-dark: #351F21;
+  --color-text-light: #FFFFFF;
+
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  height: 100%;
+}
