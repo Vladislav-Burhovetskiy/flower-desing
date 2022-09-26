@@ -1,0 +1,130 @@
+/* .about_us {
+  position: relative;
+} */
+
+.about_us__container {
+  padding: 0 35px;
+}
+
+.about_us__menu {
+  margin-bottom: 34px;
+}
+
+.about_us__menu-block-bouquets {
+  /* width: 300px; */
+  height: 145px;
+  background-image: url(../images/about_us/about_us-bouquets.jpg);
+  background-size: cover;
+
+  text-align: center;
+}
+
+.about_us__menu-block-flowers {
+  /* width: 300px; */
+  height: 145px;
+  background-image: url(../images/about_us/about_us-natural_flowers.jpg);
+  background-size: cover;
+
+  text-align: center;
+}
+
+.about_us__menu-block-own-bouquets {
+  /* width: 300px; */
+  height: 145px;
+  background-image: url(../images/about_us/about_us-own_bouquet.png);
+  background-size: cover;
+
+  text-align: center;
+}
+
+.about_us__menu-link-container {
+  transform: translateY(300%);
+}
+
+.about_us__menu-link {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+
+  width: 130px;
+  height: 30px;
+
+  background-color: var(--color-background);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  text-decoration: none;
+  color: var(--color-text-light);
+}
+
+.about_us__bouquets-link {
+  padding: 6px 46px;
+}
+
+.about_us__flowers-link {
+  padding: 6px 29px;
+}
+
+.about_us__own-bouquets-link {
+  padding: 6px 25px;
+}
+
+.about_us__info {
+  margin-bottom: 80px;
+}
+
+.about_us__info-title {
+  margin-bottom: 12px;
+}
+
+.about_us__info-description {
+  margin-bottom: 7px;
+}
+
+.about_us__image {
+  position: relative;
+}
+
+.about_us__image-container {
+  display: flex;
+
+  width: 320px;
+  height: 180px;
+
+  margin: auto;
+}
+
+.about_us__image-women {
+  margin-top: 10px;
+  /* margin: auto; */
+}
+
+.about_us__image-background {
+  position: absolute;
+  right: -34px;
+  bottom: 0;
+  z-index: -1;
+  width: 290px;
+  height: 230px;
+}
+
+/* media */
+.about_us__image-media {
+  transform: translateX(-70%);
+}
+
+.insta-container {
+  width: 20px;
+  height: 22px;
+  margin-bottom: 7px;
+}
+
+.fb-container {
+  width: 20px;
+  height: 22px;
+  margin-bottom: 7px;
+}
+
+.viber-container {
+  width: 20px;
+  height: 24px;
+  transform: translateX(-2px);
+}

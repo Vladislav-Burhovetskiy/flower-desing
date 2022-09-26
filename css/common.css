@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
 
 :root {
   font-family: 'Source Sans Pro', sans-serif;
+  
   scroll-behavior: smooth;
   --color-background: #A9BFE4;
   --color-background-light: rgba(169, 191, 228, 0.2);
@@ -11,7 +12,9 @@
   --color-shadow: #FFC2C7;
   --color-text-dark: #351F21;
   --color-text-light: #FFFFFF;
+  --color-background-all: #F5F5F5;
 
+  background-color: var(--color-background-all);
 }
 
 * {
@@ -23,6 +26,21 @@
 .container {
   max-width: 1200px;
   margin: auto;
+}
+
+h1,
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--color-text-dark);
 }
 
 img {
