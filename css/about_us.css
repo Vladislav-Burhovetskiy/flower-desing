@@ -15,6 +15,7 @@
   height: 145px;
   background-image: url(../images/about_us/about_us-bouquets.jpg);
   background-size: cover;
+  background-position: center;
 
   text-align: center;
 }
@@ -24,6 +25,7 @@
   height: 145px;
   background-image: url(../images/about_us/about_us-natural_flowers.jpg);
   background-size: cover;
+  background-position: center;
 
   text-align: center;
 }
@@ -33,6 +35,7 @@
   height: 145px;
   background-image: url(../images/about_us/about_us-own_bouquet.png);
   background-size: cover;
+  background-position: center;
 
   text-align: center;
 }
