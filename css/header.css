@@ -1,0 +1,63 @@
+.header-background {
+  height: 60px;
+
+  background: var(--color-background);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__banner-image-container {
+  height: 260px;
+
+  padding: 0 25px;
+  margin-bottom: 20px;
+}
+
+.header__banner-image {
+  margin: auto;
+}
+
+.header__banner-info {
+  text-align: center;
+  padding: 0 35px;
+}
+
+.header__banner-title {
+  margin-bottom: 10px;
+}
+
+.header__banner-text {
+  margin-bottom: 20px;
+}
+
+/* btn (link) */
+.header__banner-info-link {
+  margin-bottom: 40px;
+}
+
+.header__banner-info-link-cart {
+  width: 130px;
+  height: 30px;
+
+  font-weight: 600px;
+  font-size: 14px;
+  color: var(--color-text-light);
+  
+  background: var(--color-shadow);
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+
+  margin-right: 36px;
+}
+
+.header__banner-info-link-cart-catalog {
+  width: 130px;
+  height: 30px;
+
+  font-weight: 600px;
+  font-size: 14px;
+  color: var(--color-text-colored);
+
+  border: 2px solid var(--color-shadow);
+  border-radius: 50px;
+}
