@@ -1,6 +1,6 @@
-/* .about_us {
-  position: relative;
-} */
+.about_us {
+  margin-bottom: 10px;
+}
 
 .about_us__container {
   padding: 0 35px;

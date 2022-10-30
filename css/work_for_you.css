@@ -1,0 +1,47 @@
+.work_for_you {
+  background-color: var(--color-background-light);
+  height: 375px;
+}
+
+.work_for_you__container {
+  padding: 14px 35px;
+}
+
+.work_for_you__title {
+  font-family: Lora;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+
+  color: var(--color-text-colored);
+  margin-bottom: 12px;
+}
+
+.work_for_you__info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.work_for_you__info-container {
+  max-width: 145px;
+}
+
+.work_for_you__info-image-container {
+  width: 65px;
+  height: 55px;
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+.work_for_you__info-text {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.indoor_image {
+  padding: 0 5px;
+}
